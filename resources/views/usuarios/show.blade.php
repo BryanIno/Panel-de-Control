@@ -13,7 +13,7 @@
             Correo Electronico: {{$user->email}}
         </p>
         
-        <a href="{{route('user.edit',$user)}}" class="btn btn-success">Editar</a>
+        <a href="{{route('user.edit',$user)}}" class="btn btn-primary">Editar</a>
         <a href="{{route('user.index')}}" class="btn btn-secondary">Regresar a la pagina anterior</a>
     </div>
     

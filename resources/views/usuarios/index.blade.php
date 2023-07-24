@@ -9,9 +9,6 @@
         <thead class="table-dark">
             <tr>
                 <th>
-                    Id
-                </th>
-                <th>
                     Nombre
                 </th>
                 <th>
@@ -25,9 +22,6 @@
         <tbody>
             @foreach ($usuarios as $usuario)
                 <tr>
-                    <th>
-                        {{$usuario->id}}
-                    </th>
                     <td>
                         <a href="{{route('user.show',$usuario)}}">{{$usuario->name}}</a>
                         

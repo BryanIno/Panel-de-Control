@@ -34,9 +34,11 @@
         </label>
         <br>
         <label class="form-label">
-            <button class="btn btn-success" type="submit">
-                Guardar
-            </button>
+            <a href="#" class="shadow-lg btn btn-success">
+                <button class="" type="submit">
+                    Guardar
+                </button>
+            </a>
          </label>
         <a href="{{route('user.index')}}" class="btn btn-secondary">Cancelar</a>
         

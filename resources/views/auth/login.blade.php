@@ -38,7 +38,9 @@
                         {{ __('¿Olvidaste tu contraseña?') }}
                     </a>
                 @endif
-                      
+                <a class="text-sm text-gray-600 underline rounded-md hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="{{ route('register') }}">
+                    {{ __('¿No está registrado?') }}
+                </a>
                 <x-button class="ml-4">
                     {{ __('Ingresar') }}
                 </x-button>
